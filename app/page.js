@@ -8,9 +8,9 @@ export default function page() {
 
   // Your artwork data
   const artworks = [
-    { id: 1, title: "Summer Memory", image: "/mt-green.png", size: "tall" },
-    { id: 2, title: "Ocean Dreams", image: "/pikachu.png", size: "wide" },
-    { id: 3, title: "Forest Whisper", image: "/artwork3.jpg", size: "square" },
+    { id: 1, title: "Summer Memory", image: "/", size: "tall" },
+    { id: 2, title: "Ocean Dreams", image: "/", size: "wide" },
+    { id: 3, title: "Forest Whisper", image: "/", size: "square" },
     { id: 4, title: "Midnight Star", image: "/artwork4.jpg", size: "tall" },
     { id: 5, title: "Golden Hour", image: "/artwork5.jpg", size: "tall" },
     { id: 6, title: "Silent Moon", image: "/artwork6.jpg", size: "wide" },
@@ -22,16 +22,13 @@ export default function page() {
     <div className="min-h-screen">
       
       {/* HERO SECTION */}
-      <div className="min-h-[60vh] flex items-center justify-center relative bg-black">
-        <div className="text-center px-4 z-10">
-          <h1 className="text-7xl md:text-8xl lg:text-9xl font-black">
+      <div className="min-h-[50vh] flex items-center justify-center relative bg-black">
+        <div className="text-center px-3 z-8">
+          <h1 className="text-6xl md:text-8xl lg:text-9xl font-black">
             <span className="text-white">MY DRAWING</span>
             <br />
             <span className="text-red-600">MEMORY</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 mt-6 tracking-widest">
-            DIGITAL PAINTING
-          </p>
         </div>
       </div>
       
@@ -334,7 +331,7 @@ export default function page() {
             </p>
           </div>
           
-          <Link href="/component/watercolor">
+          <Link href="/component/watercoler">
             <button className="group/btn relative overflow-hidden bg-transparent border-2 border-red-600 text-white px-8 py-3 rounded-full font-light tracking-wider transition-all duration-300 hover:bg-red-600 hover:shadow-lg hover:shadow-red-600/25">
               <span className="relative z-10">EXPLORE WATERCOLOR</span>
               <span className="absolute inset-0 bg-red-600 transform translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300"></span>
