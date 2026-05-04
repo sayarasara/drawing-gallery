@@ -7,14 +7,8 @@ export default function WallPaintingPage() {
 
   // Wall Painting artwork data
   const wallArtworks = [
-    { id: 1, title: "Urban Rhythms", image: "/wall1.jpg", size: "wide", description: "The heartbeat of city streets captured in bold strokes", year: "2024" },
-    { id: 2, title: "Abstract Rebellion", image: "/wall2.jpg", size: "tall", description: "Bold colors breaking conventional boundaries", year: "2023" },
-    { id: 3, title: "Monumental Dreams", image: "/wall3.jpg", size: "square", description: "Large-scale visions on urban walls", year: "2024" },
-    { id: 4, title: "Street Symphony", image: "/wall4.jpg", size: "wide", description: "Where graffiti meets fine art", year: "2023" },
-    { id: 5, title: "Concrete Poetry", image: "/wall5.jpg", size: "tall", description: "Words and shapes on raw surfaces", year: "2024" },
-    { id: 6, title: "Mural Evolution", image: "/wall6.jpg", size: "square", description: "Transforming blank walls into stories", year: "2023" },
-    { id: 7, title: "Neon Conversations", image: "/wall7.jpg", size: "wide", description: "Electric dialogues on brick", year: "2024" },
-    { id: 8, title: "Epic Scale", image: "/wall8.jpg", size: "tall", description: "Monumental art for massive spaces", year: "2024" },
+    { id: 1, title: "Urban Rhythms", image: "/wallpainting.jpeg", size: "wide", description: "The heartbeat of city streets captured in bold strokes", year: "2024" },
+  
   ];
 
   return (

@@ -8,25 +8,24 @@ export default function page() {
 
   // Your artwork data
   const artworks = [
-    { id: 1, title: "Summer Memory", image: "/", size: "tall" },
-    { id: 2, title: "Ocean Dreams", image: "/", size: "wide" },
-    { id: 3, title: "Forest Whisper", image: "/", size: "square" },
-    { id: 4, title: "Midnight Star", image: "/artwork4.jpg", size: "tall" },
-    { id: 5, title: "Golden Hour", image: "/artwork5.jpg", size: "tall" },
-    { id: 6, title: "Silent Moon", image: "/artwork6.jpg", size: "wide" },
-    { id: 7, title: "Dream Walker", image: "/artwork7.jpg", size: "square" },
-    { id: 8, title: "Night Sky", image: "/artwork8.jpg", size: "tall" },
+    { id: 1, title: "Summer Memory", image: "/WhatsApp Image 2026-05-04 at 9.30.12 PM.jpeg", size: "tall" },
+    { id: 2, title: "Ocean Dreams", image: "/WhatsApp Image 2026-05-04 at 9.21.08 PM.jpeg", size: "wide" },
+    { id: 3, title: "Forest Whisper", image: "/WhatsApp Image 2026-05-04 at 9.30.14 PM.jpeg", size: "square" },
+    { id: 4, title: "Midnight Star", image: "/WhatsApp Image 2026-05-04 at 9.30.12 PM (1).jpeg", size: "tall" },
+    { id: 5, title: "Golden Hour", image: "/WhatsApp Image 2026-05-04 at 9.21.09 PM (1).jpeg", size: "tall" },
+    { id: 6, title: "Silent Moon", image: "/WhatsApp Image 2026-05-04 at 9.21.11 PM (2).jpeg", size: "wide" },
+   
   ];
 
   return (
     <div className="min-h-screen">
       
       {/* HERO SECTION */}
-      <div className="min-h-[50vh] flex items-center justify-center relative bg-black">
-        <div className="text-center px-3 z-8">
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-black">
+      <div className="min-h-[40vh] flex items-center justify-center relative bg-black">
+        <div className="text-center px-1 z-3">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black">
             <span className="text-white">MY DRAWING</span>
-            <br />
+        <br/>
             <span className="text-red-600">MEMORY</span>
           </h1>
         </div>
@@ -46,7 +45,7 @@ export default function page() {
       >
         <div className="max-w-7xl mx-auto">
           {/* MASONRY GRID - Like Pinterest, no gaps! */}
-          <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+          <div className="columns-1 sm:columns-2 lg:columns-3 gap-10 space-y-6">
             {artworks.map((artwork, idx) => (
               <div 
                 key={artwork.id} 
@@ -157,7 +156,7 @@ export default function page() {
       )}
       {/* pastelwork card */}
 {/* PASTELWORK SECTION - Image on LEFT, Content on RIGHT */}
-<div className="py-32 px-4 ">
+<div className="py-3 px-4 ">
   <div className="max-w-6xl mx-auto">
     {/* Section Title */}
     <div className="text-center mb-16">
@@ -176,7 +175,7 @@ export default function page() {
         <div className="md:w-1/2 relative overflow-hidden">
           <div className="relative h-72 md:h-full">
             <img
-              src="/pikachu.png"
+              src="/WhatsApp Image 2026-05-04 at 9.21.08 PM.jpeg"
               alt="Pastel artwork"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -219,7 +218,7 @@ export default function page() {
 </div>
 
 {/* WALL PAINTING SECTION - Image on LEFT, Content on RIGHT */}
-<div className="py-32 px-4 ">
+<div className="py-3 px-4 ">
   <div className="max-w-6xl mx-auto">
     {/* Section Title */}
     <div className="text-center mb-16">
@@ -267,7 +266,7 @@ export default function page() {
         <div className="md:w-1/2 relative overflow-hidden">
           <div className="relative h-72 md:h-full">
             <img
-              src="/wallpainting-image.jpg"
+              src="/wallpainting.jpeg"
               alt="Wall painting artwork"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -282,7 +281,7 @@ export default function page() {
 </div>
 
 {/* WATERCOLOR SECTION - Image on LEFT, Content on RIGHT */}
-<div className="py-32 px-4 ">
+<div className="py-3 px-4 ">
   <div className="max-w-6xl mx-auto">
     {/* Section Title */}
     <div className="text-center mb-16">
@@ -301,7 +300,7 @@ export default function page() {
         <div className="md:w-1/2 relative overflow-hidden">
           <div className="relative h-72 md:h-full">
             <img
-              src="/watercolor-image.jpg"
+              src="/watercolor/WhatsApp Image 2026-05-04 at 9.30.11 PM.jpeg"
               alt="Watercolor artwork"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

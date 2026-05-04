@@ -5,17 +5,67 @@ import Link from "next/link";
 export default function watercoler() {
   const [selectedImage, setSelectedImage] = useState(null);
 
-  // Watercolor artwork data
-  const watercolorArtworks = [
-    { id: 1, title: "Morning Dew", image: "/", size: "tall", description: "First light captured in transparent layers", year: "2024" },
-    { id: 2, title: "Ocean Whispers", image: "/water2.jpg", size: "wide", description: "Where water meets sky in fluid harmony", year: "2023" },
-    { id: 3, title: "Garden Serenade", image: "/water3.jpg", size: "square", description: "Blooms dancing in summer breeze", year: "2024" },
-    { id: 4, title: "Misty Valley", image: "/water4.jpg", size: "wide", description: "Atmospheric perspective in wet-on-wet", year: "2023" },
-    { id: 5, title: "Twilight Glow", image: "/water5.jpg", size: "tall", description: "The golden hour in flowing pigments", year: "2024" },
-    { id: 6, title: "Quiet Harbor", image: "/water6.jpg", size: "square", description: "Reflections dancing on still water", year: "2023" },
-    { id: 7, title: "Autumn Rain", image: "/water7.jpg", size: "wide", description: "The beauty of falling leaves and rain", year: "2024" },
-    { id: 8, title: "Dreamy Horizon", image: "/water8.jpg", size: "tall", description: "Where earth meets endless possibilities", year: "2024" },
-  ];
+// Watercolor artwork data
+const watercolorArtworks = [
+  { 
+    id: 1, 
+    title: "Morning Mist", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.11 PM (1).jpeg", 
+    size: "tall", 
+    description: "Soft morning light filtering through gentle mist, creating an ethereal atmosphere", 
+    year: "2024" 
+  },
+  { 
+    id: 2, 
+    title: "Evening Reflections", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.11 PM.jpeg", 
+    size: "wide", 
+    description: "Golden hour light dancing on calm waters, capturing nature's tranquil moments", 
+    year: "2024" 
+  },
+  { 
+    id: 3, 
+    title: "Whispering Waves", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.12 PM (1).jpeg", 
+    size: "square", 
+    description: "Ocean waves gently lapping at the shore in fluid watercolor strokes", 
+    year: "2024" 
+  },
+  { 
+    id: 4, 
+    title: "Coastal Serenity", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.12 PM.jpeg", 
+    size: "wide", 
+    description: "Peaceful coastline where earth meets sea in harmonious color blends", 
+    year: "2023" 
+  },
+  { 
+    id: 5, 
+    title: "", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.13 PM (1).jpeg", 
+    size: "tall", 
+    description: "First light touching mountain peaks through layers of atmospheric wash", 
+    year: "2024" 
+  },
+  { 
+    id: 6, 
+    title: "Mountain Dawn", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.13 PM.jpeg", 
+    size: "tall", 
+    description: "First light touching mountain peaks through layers of atmospheric wash", 
+    year: "2024" 
+  },
+  { 
+    id: 7, 
+    title: "Woodland Path", 
+    image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.14 PM.jpeg", 
+    size: "square", 
+    description: "A gentle forest trail dappled with sunlight and shadow", 
+    year: "2024" 
+  },
+];
+
+  
 
   return (
     <div 
@@ -112,10 +162,10 @@ export default function watercoler() {
               The Fluidity of Dreams
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
-              "Watercolor is the most responsive medium — it breathes, flows, and finds its own path. 
+              Watercolor is the most responsive medium — it breathes, flows, and finds its own path. 
               Each painting is a collaboration between intention and chance, where water carries pigment 
               into unexpected territories. These works capture moments that can never be exactly replicated, 
-              making each piece truly one-of-a-kind."
+              making each piece truly one-of-a-kind.
             </p>
           </div>
         </div>

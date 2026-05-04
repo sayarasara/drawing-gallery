@@ -8,16 +8,14 @@ export default function PastelworkPage() {
 
   // Pastelwork specific artwork data
   const pastelArtworks = [
-    { id: 1, title: "Soft Horizon", image: "/mt-green.png", size: "wide", description: "Gentle gradients meet the edge of dawn", year: "2024" },
-    { id: 2, title: "Whispering Petals", image: "/pastel2.jpg", size: "tall", description: "Delicate flowers in soft spring tones", year: "2023" },
-    { id: 3, title: "Dreamy Waters", image: "/pastel3.jpg", size: "square", description: "Calm reflections in pastel blues", year: "2024" },
-    { id: 4, title: "Cotton Clouds", image: "/pastel4.jpg", size: "wide", description: "Fluffy dreams painted in soft pinks", year: "2023" },
-    { id: 5, title: "Misty Morning", image: "/pastel5.jpg", size: "tall", description: "The quiet beauty of early light", year: "2024" },
-    { id: 6, title: "Blushing Sky", image: "/pastel6.jpg", size: "square", description: "Sunset whispers in pastel hues", year: "2023" },
-    { id: 7, title: "Gentle Breeze", image: "/pastel7.jpg", size: "wide", description: "Soft winds through pastel meadows", year: "2024" },
-    { id: 8, title: "Tranquil Soul", image: "/pastel8.jpg", size: "tall", description: "Inner peace in soft gradients", year: "2024" },
-    { id: 9, title: "Sugar Dreams", image: "/pastel9.jpg", size: "square", description: "Sweet visions in candy colors", year: "2023" },
-    { id: 10, title: "Lavender Fields", image: "/pastel10.jpg", size: "wide", description: "Endless purple softness", year: "2024" },
+    { id: 1, title: "Soft Horizon", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM (2).jpeg", size: "wide", description: "Gentle gradients meet the edge of dawn", year: "2024" },
+    { id: 2, title: "Whispering Petals", image: "/pastelpainting/bee.jpeg", size: "tall", description: "Delicate flowers in soft spring tones", year: "2023" },
+    { id: 3, title: "Dreamy Waters", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM (1).jpeg", size: "tall", description: "Calm reflections in pastel blues", year: "2024" },
+    { id: 4, title: "Cotton Clouds", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM.jpeg", size: "wide", description: "Fluffy dreams painted in soft pinks", year: "2023" },
+    { id: 5, title: "Misty Morning", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.12 PM.jpeg", size: "tall", description: "The quiet beauty of early light", year: "2024" },
+    { id: 6, title: "Blushing Sky", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.11 PM.jpeg", size: "square", description: "Sunset whispers in pastel hues", year: "2023" },
+    { id: 7, title: "Gentle Breeze", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.11 PM (2).jpeg", size: "tall", description: "Soft winds through pastel meadows", year: "2024" },
+    { id: 7, title: "Gentle Breeze", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.10 PM.jpeg", size: "tall", description: "Soft winds through pastel meadows", year: "2024" }
   ];
 
   return (
@@ -121,9 +119,9 @@ export default function PastelworkPage() {
               About Pastel Collection
             </h3>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
-              "Pastel colors speak in whispers, yet they leave the loudest impressions on the heart. 
+              Pastel colors speak in whispers, yet they leave the loudest impressions on the heart. 
               This collection explores the delicate balance between light and shadow, where soft hues 
-              capture fleeting moments of beauty and transform them into lasting memories."
+              capture fleeting moments of beauty and transform them into lasting memories.
             </p>
             <div className="flex justify-center gap-2">
               {[1, 2, 3].map((i) => (
