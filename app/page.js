@@ -20,17 +20,44 @@ export default function page() {
   return (
     <div className="min-h-screen">
       
+
       {/* HERO SECTION */}
-      <div className="min-h-[40vh] flex items-center justify-center relative bg-black">
-        <div className="text-center px-1 z-3">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black">
-            <span className="text-white">MY DRAWING</span>
-        <br/>
-            <span className="text-red-600">MEMORY</span>
-          </h1>
-        </div>
-      </div>
-      
+<div className="min-h-[40vh] flex items-center justify-center relative bg-black">
+  <div className="text-center px-1 z-3">
+    <h1 className="text-5xl md:text-7xl lg:text-8xl font-black">
+      <span className="text-white">MY DRAWING</span>
+      <br />
+      <div className="flex items-center justify-center gap-4 md:gap-6">
+  <span className="text-red-600">MEMORY</span>
+  <Link href="/Aboutme" className="group flex flex-col items-center gap-1">
+    <div className="w-8 h-8 md:w-8 md:h-8 lg:w-12 lg:h-12 rounded-full overflow-hidden border-2 border-red-600 group-hover:border-white transition-all duration-300 group-hover:scale-110">
+      <img
+        className="w-full h-full object-cover rounded-full"
+        alt="About Me"
+        src="/logo2.jpeg"
+      />
+    </div>
+    <span className="text-white text-xs md:text-sm font-light tracking-wider opacity-60 group-hover:opacity-100 transition-opacity">
+      click
+    </span>
+  </Link>
+</div>
+      {/* <div className="flex items-center justify-center gap-4 md:gap-6">
+        <span className="text-red-600">MEMORY</span>
+        <Link href="/Aboutme">
+          <div className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full overflow-hidden border-2 border-red-600 hover:border-white transition-all duration-300 hover:scale-110">
+            <img
+              className="w-full h-full object-cover rounded-full"
+              alt="Logo"
+              src="/logo2.jpeg"
+            />
+          </div>
+   
+        </Link>
+      </div> */}
+    </h1>
+  </div>
+</div>
 <div      style={{
           backgroundImage: "url('https://static.vecteezy.com/system/resources/thumbnails/022/277/135/small/realistic-black-wooden-board-background-free-vector.jpg'), radial-gradient(circle at center, #8B7355 0%, #5C4033 100%)",
           backgroundBlendMode: "overlay"

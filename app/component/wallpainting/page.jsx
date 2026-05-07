@@ -8,6 +8,7 @@ export default function WallPaintingPage() {
   // Wall Painting artwork data
   const wallArtworks = [
     { id: 1, title: "Urban Rhythms", image: "/wallpainting.jpeg", size: "wide", description: "The heartbeat of city streets captured in bold strokes", year: "2024" },
+    { id: 1, title: "Urban Rhythms", image: "/other/WhatsApp Image 2026-05-08 at 2.48.15 AM (1).jpeg", size: "wide",  year: "2023" },
   
   ];
 
