@@ -69,7 +69,7 @@ export default function WallPaintingPage() {
                         `}>
                           <img
                             src={artwork.image}
-                            alt={artwork.title}
+                           // alt={artwork.title}
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             onError={(e) => {
                               e.target.src = "https://placehold.co/600x800/1a1a1a/ff3333?text=Wall+Art";
@@ -88,9 +88,9 @@ export default function WallPaintingPage() {
                 </div>
                 
                 <div className="text-center mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-white text-xs font-light tracking-wide drop-shadow-lg">
+                  {/* <p className="text-white text-xs font-light tracking-wide drop-shadow-lg">
                     {artwork.title}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
@@ -143,7 +143,7 @@ export default function WallPaintingPage() {
                   <div className="flex items-center justify-center">
                     <img
                       src={selectedImage.image}
-                      alt={selectedImage.title}
+                    //  alt={selectedImage.title}
                       className="max-w-full max-h-[70vh] object-contain"
                       onError={(e) => {
                         e.target.src = "https://placehold.co/800x1000/1a1a1a/ff3333?text=Wall+Art";
@@ -151,8 +151,8 @@ export default function WallPaintingPage() {
                     />
                   </div>
                   <div className="text-center mt-6">
-                    <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2>
-                    <p className="text-gray-500 mt-1 text-sm">{selectedImage.description}</p>
+                    {/* <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2> */}
+                    {/* <p className="text-gray-500 mt-1 text-sm">{selectedImage.description}</p> */}
                     <p className="text-gray-400 text-xs mt-2">{selectedImage.year}</p>
                   </div>
                 </div>

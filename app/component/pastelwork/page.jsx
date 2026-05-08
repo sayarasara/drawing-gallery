@@ -8,14 +8,14 @@ export default function PastelworkPage() {
 
   // Pastelwork specific artwork data
   const pastelArtworks = [
-    { id: 1, title: "Soft Horizon", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM (2).jpeg", size: "wide", description: "Gentle gradients meet the edge of dawn", year: "2024" },
-    { id: 2, title: "Whispering Petals", image: "/pastelpainting/bee.jpeg", size: "tall", description: "Delicate flowers in soft spring tones", year: "2023" },
-    { id: 3, title: "Dreamy Waters", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM (1).jpeg", size: "tall", description: "Calm reflections in pastel blues", year: "2024" },
-    { id: 4, title: "Cotton Clouds", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM.jpeg", size: "wide", description: "Fluffy dreams painted in soft pinks", year: "2023" },
-    { id: 5, title: "Misty Morning", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.12 PM.jpeg", size: "tall", description: "The quiet beauty of early light", year: "2024" },
-    { id: 6, title: "Blushing Sky", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.11 PM.jpeg", size: "square", description: "Sunset whispers in pastel hues", year: "2023" },
-    { id: 7, title: "Gentle Breeze", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.11 PM (2).jpeg", size: "tall", description: "Soft winds through pastel meadows", year: "2024" },
-    { id: 7, title: "Gentle Breeze", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.10 PM.jpeg", size: "tall", description: "Soft winds through pastel meadows", year: "2024" }
+    { id: 1, title: "Soft Horizon", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM (2).jpeg", size: "wide", description: "Gentle gradients meet the edge of dawn", year: "2023" },
+    { id: 2, title: "Whispering Petals", image: "/pastelpainting/bee.jpeg", size: "tall", description: "Delicate flowers in soft spring tones", year: "2020" },
+    { id: 3, title: "Dreamy Waters", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM (1).jpeg", size: "tall", description: "Calm reflections in pastel blues", year: "2020" },
+    { id: 4, title: "Cotton Clouds", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.09 PM.jpeg", size: "wide", description: "Fluffy dreams painted in soft pinks", year: "2019" },
+    { id: 5, title: "Misty Morning", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.12 PM.jpeg", size: "tall", description: "The quiet beauty of early light", year: "2020" },
+    { id: 6, title: "Blushing Sky", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.11 PM.jpeg", size: "square", description: "Sunset whispers in pastel hues", year: "2020" },
+    { id: 7, title: "Gentle Breeze", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.11 PM (2).jpeg", size: "tall", description: "Soft winds through pastel meadows", year: "2019" },
+    { id: 7, title: "Gentle Breeze", image: "/pastelpainting/WhatsApp Image 2026-05-04 at 9.21.10 PM.jpeg", size: "tall", description: "Soft winds through pastel meadows", year: "2019" }
   ];
 
   return (
@@ -77,7 +77,7 @@ export default function PastelworkPage() {
                         `}>
                           <img
                             src={artwork.image}
-                            alt={artwork.title}
+                            //alt={artwork.title}
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             onError={(e) => {
                               e.target.src = "https://placehold.co/600x800/FFD1DC/9370DB?text=Pastel+Dream";
@@ -99,9 +99,9 @@ export default function PastelworkPage() {
                 
                 {/* Title and meta on hover */}
                 <div className="text-center mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
-                  <p className="text-white text-sm font-light tracking-wide drop-shadow-lg">
+                  {/* <p className="text-white text-sm font-light tracking-wide drop-shadow-lg">
                     {artwork.title}
-                  </p>
+                  </p> */}
                   <p className="text-gray-400 text-xs mt-1">{artwork.year}</p>
                 </div>
               </div>
@@ -168,8 +168,8 @@ export default function PastelworkPage() {
                     />
                   </div>
                   <div className="text-center mt-6">
-                    <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2>
-                    <p className="text-gray-500 mt-1 text-sm">{selectedImage.description}</p>
+                    {/* <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2>
+                    <p className="text-gray-500 mt-1 text-sm">{selectedImage.description}</p> */}
                     <p className="text-gray-400 text-xs mt-2">{selectedImage.year} • Pastel on Paper</p>
                   </div>
                 </div>

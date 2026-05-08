@@ -119,12 +119,6 @@ const page = () => {
                   its own unique story. Nature wasn't just around me — it was inside me, 
                   waiting to be expressed through art.
                 </p>
-                <div className="flex flex-wrap gap-3 mt-6">
-                  <span className="text-xs px-3 py-1.5 bg-red-600/10 border border-red-600/30 text-red-400 rounded-full">🌺 Flowers</span>
-                  <span className="text-xs px-3 py-1.5 bg-red-600/10 border border-red-600/30 text-red-400 rounded-full">🌿 Nature</span>
-                  <span className="text-xs px-3 py-1.5 bg-red-600/10 border border-red-600/30 text-red-400 rounded-full">☀️ Light</span>
-                  <span className="text-xs px-3 py-1.5 bg-red-600/10 border border-red-600/30 text-red-400 rounded-full">🎨 Colors</span>
-                </div>
               </div>
             </div>
           </div>

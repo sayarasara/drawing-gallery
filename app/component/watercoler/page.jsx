@@ -13,7 +13,7 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.11 PM (1).jpeg", 
     size: "tall", 
     description: "Soft morning light filtering through gentle mist, creating an ethereal atmosphere", 
-    year: "2024" 
+    year: "2025" 
   },
   { 
     id: 2, 
@@ -21,7 +21,7 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.11 PM.jpeg", 
     size: "wide", 
     description: "Golden hour light dancing on calm waters, capturing nature's tranquil moments", 
-    year: "2024" 
+    year: "2025" 
   },
   { 
     id: 3, 
@@ -29,7 +29,7 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.12 PM (1).jpeg", 
     size: "square", 
     description: "Ocean waves gently lapping at the shore in fluid watercolor strokes", 
-    year: "2024" 
+    year: "2026" 
   },
   { 
     id: 4, 
@@ -37,7 +37,7 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.12 PM.jpeg", 
     size: "wide", 
     description: "Peaceful coastline where earth meets sea in harmonious color blends", 
-    year: "2023" 
+    year: "2026" 
   },
   { 
     id: 5, 
@@ -45,7 +45,7 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.13 PM (1).jpeg", 
     size: "tall", 
     description: "First light touching mountain peaks through layers of atmospheric wash", 
-    year: "2024" 
+    year: "2026" 
   },
   { 
     id: 6, 
@@ -53,7 +53,7 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.13 PM.jpeg", 
     size: "tall", 
     description: "First light touching mountain peaks through layers of atmospheric wash", 
-    year: "2024" 
+    year: "2026" 
   },
   { 
     id: 7, 
@@ -61,7 +61,23 @@ const watercolorArtworks = [
     image: "/watercolor/WhatsApp Image 2026-05-04 at 9.30.14 PM.jpeg", 
     size: "square", 
     description: "A gentle forest trail dappled with sunlight and shadow", 
-    year: "2024" 
+    year: "2026" 
+  },
+  { 
+    id: 8, 
+    title: "Woodland Path", 
+    image: "/watercolor/WhatsApp Image 2026-05-09 at 1.39.56 AM (1).jpeg", 
+    size: "square", 
+    description: "A gentle forest trail dappled with sunlight and shadow", 
+    year: "2026" 
+  },
+  { 
+    id: 9, 
+    title: "Woodland Path", 
+    image: "/watercolor/WhatsApp Image 2026-05-09 at 1.39.56 AM.jpeg", 
+    size: "tall", 
+    description: "A gentle forest trail dappled with sunlight and shadow", 
+    year: "2026" 
   },
 ];
 
@@ -143,9 +159,9 @@ const watercolorArtworks = [
                 </div>
                 
                 <div className="text-center mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-white text-xs font-light tracking-wide drop-shadow-lg">
+                  {/* <p className="text-white text-xs font-light tracking-wide drop-shadow-lg">
                     {artwork.title}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
@@ -207,8 +223,8 @@ const watercolorArtworks = [
                     />
                   </div>
                   <div className="text-center mt-6">
-                    <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2>
-                    <p className="text-gray-500 mt-1 text-sm">{selectedImage.description}</p>
+                    {/* <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2>
+                    <p className="text-gray-500 mt-1 text-sm">{selectedImage.description}</p> */}
                     <p className="text-gray-400 text-xs mt-2">{selectedImage.year}</p>
                   </div>
                 </div>

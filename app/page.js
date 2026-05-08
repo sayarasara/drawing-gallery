@@ -8,12 +8,12 @@ export default function page() {
 
   // Your artwork data
   const artworks = [
-    { id: 1, title: "Summer Memory", image: "/WhatsApp Image 2026-05-04 at 9.30.12 PM.jpeg", size: "tall" },
-    { id: 2, title: "Ocean Dreams", image: "/WhatsApp Image 2026-05-04 at 9.21.08 PM.jpeg", size: "wide" },
-    { id: 3, title: "Forest Whisper", image: "/WhatsApp Image 2026-05-04 at 9.30.14 PM.jpeg", size: "square" },
-    { id: 4, title: "Midnight Star", image: "/WhatsApp Image 2026-05-04 at 9.30.12 PM (1).jpeg", size: "tall" },
+    { id: 1, title: "Watercolor painting", image: "/WhatsApp Image 2026-05-04 at 9.30.12 PM.jpeg", size: "tall" },
+    { id: 2, title: "Silent Moon",image: "/WhatsApp Image 2026-05-04 at 9.21.08 PM.jpeg", size: "wide" },
+    { id: 3, title: "Arabic Calligraphy", image: "/WhatsApp Image 2026-05-04 at 9.30.14 PM.jpeg", size: "square" },
+    { id: 4, title: "black", image: "/watercolor/WhatsApp Image 2026-05-09 at 1.39.56 AM (1).jpeg", size: "tall" },
     { id: 5, title: "Golden Hour", image: "/WhatsApp Image 2026-05-04 at 9.21.09 PM (1).jpeg", size: "tall" },
-    { id: 6, title: "Silent Moon", image: "/WhatsApp Image 2026-05-04 at 9.21.11 PM (2).jpeg", size: "wide" },
+    { id: 6, title: "Parrot", image: "/WhatsApp Image 2026-05-04 at 9.21.11 PM (2).jpeg", size: "wide" },
    
   ];
 
@@ -42,19 +42,6 @@ export default function page() {
     </span>
   </Link>
 </div>
-      {/* <div className="flex items-center justify-center gap-4 md:gap-6">
-        <span className="text-red-600">MEMORY</span>
-        <Link href="/Aboutme">
-          <div className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-full overflow-hidden border-2 border-red-600 hover:border-white transition-all duration-300 hover:scale-110">
-            <img
-              className="w-full h-full object-cover rounded-full"
-              alt="Logo"
-              src="/logo2.jpeg"
-            />
-          </div>
-   
-        </Link>
-      </div> */}
     </h1>
   </div>
 </div>
@@ -63,13 +50,7 @@ export default function page() {
           backgroundBlendMode: "overlay"
         }} >
       {/* WALL GALLERY - Masonry layout with NO empty spaces */}
-      <div 
-        className="py-20 px-4"
-        // style={{
-        //   backgroundImage: "url('https://static.vecteezy.com/system/resources/thumbnails/022/277/135/small/realistic-black-wooden-board-background-free-vector.jpg'), radial-gradient(circle at center, #8B7355 0%, #5C4033 100%)",
-        //   backgroundBlendMode: "overlay"
-        // }}
-      >
+      <div className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           {/* MASONRY GRID - Like Pinterest, no gaps! */}
           <div className="columns-1 sm:columns-2 lg:columns-3 gap-10 space-y-6">
@@ -149,7 +130,6 @@ export default function page() {
                   </div>
                   <div className="text-center mt-6">
                     <h2 className="text-2xl font-bold text-gray-800">{selectedImage.title}</h2>
-                    <p className="text-gray-500 mt-1 text-sm">Digital Painting</p>
                   </div>
                 </div>
               </div>
